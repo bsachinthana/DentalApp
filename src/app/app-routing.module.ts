@@ -18,7 +18,7 @@ const routes: Routes = [
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
   { path: 'complaint', loadChildren: './complaint/complaint.module#ComplaintPageModule' },
   { path: 'dentalHistory', loadChildren: './dental-history/dental-history.module#DentalHistoryPageModule' },
-  { path: 'Allergies', loadChildren: './allergies/allergies.module#AllergiesPageModule' }
+  { path: 'allergies', loadChildren: './allergies/allergies.module#AllergiesPageModule' }
 ];
 
 @NgModule({
